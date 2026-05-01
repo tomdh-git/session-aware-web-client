@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.tomdh.courseapi",
+    "module": "session-aware-web-client",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "session-aware-web-client-1.0.0.jar",
+          "url": "session-aware-web-client-1.0.0.jar",
+          "size": 23431,
+          "sha512": "7fff5f8bb8814eb79125e259af31dec02f80537b01413b406ad7cef7c01caac7e7cf0535a051725cb17e3fcd6f8f8f870a2a2dfe2e3b77dfc9c48265ed43bcf5",
+          "sha256": "93cc06a71dea6ad4a019ffe105b9e689759f975a9c73a27f1143605b0182ef03",
+          "sha1": "98aa680a60f9d4d043a6d4379312bdffe511be8e",
+          "md5": "628c24d6fde461ccf0ad47c522a31f9f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-webflux",
+          "version": {
+            "requires": "3.3.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-reactor",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "session-aware-web-client-1.0.0.jar",
+          "url": "session-aware-web-client-1.0.0.jar",
+          "size": 23431,
+          "sha512": "7fff5f8bb8814eb79125e259af31dec02f80537b01413b406ad7cef7c01caac7e7cf0535a051725cb17e3fcd6f8f8f870a2a2dfe2e3b77dfc9c48265ed43bcf5",
+          "sha256": "93cc06a71dea6ad4a019ffe105b9e689759f975a9c73a27f1143605b0182ef03",
+          "sha1": "98aa680a60f9d4d043a6d4379312bdffe511be8e",
+          "md5": "628c24d6fde461ccf0ad47c522a31f9f"
+        }
+      ]
+    }
+  ]
+}
