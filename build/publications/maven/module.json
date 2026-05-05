@@ -39,10 +39,10 @@
           "name": "session-aware-web-client-1.0.0.jar",
           "url": "session-aware-web-client-1.0.0.jar",
           "size": 23431,
-          "sha512": "7fff5f8bb8814eb79125e259af31dec02f80537b01413b406ad7cef7c01caac7e7cf0535a051725cb17e3fcd6f8f8f870a2a2dfe2e3b77dfc9c48265ed43bcf5",
-          "sha256": "93cc06a71dea6ad4a019ffe105b9e689759f975a9c73a27f1143605b0182ef03",
-          "sha1": "98aa680a60f9d4d043a6d4379312bdffe511be8e",
-          "md5": "628c24d6fde461ccf0ad47c522a31f9f"
+          "sha512": "ea0d079d3dcbaca28173b23e1f9975024da19f49b19a9786daf6c8595b4e0edd9306d3314bf70479ce60653df4bb96f90d20a62b047bf0e335e07b8e5f2441b5",
+          "sha256": "a9e76d692e9609813e42dca4d4b1dbbeb3b426a125da49964ad702e0df81ea04",
+          "sha1": "cd98791e1fa97df31341a269d73d3a7d672c001f",
+          "md5": "daf1b787db151f8d90f16606d1cbe5bc"
         }
       ]
     },
@@ -92,10 +92,10 @@
           "name": "session-aware-web-client-1.0.0.jar",
           "url": "session-aware-web-client-1.0.0.jar",
           "size": 23431,
-          "sha512": "7fff5f8bb8814eb79125e259af31dec02f80537b01413b406ad7cef7c01caac7e7cf0535a051725cb17e3fcd6f8f8f870a2a2dfe2e3b77dfc9c48265ed43bcf5",
-          "sha256": "93cc06a71dea6ad4a019ffe105b9e689759f975a9c73a27f1143605b0182ef03",
-          "sha1": "98aa680a60f9d4d043a6d4379312bdffe511be8e",
-          "md5": "628c24d6fde461ccf0ad47c522a31f9f"
+          "sha512": "ea0d079d3dcbaca28173b23e1f9975024da19f49b19a9786daf6c8595b4e0edd9306d3314bf70479ce60653df4bb96f90d20a62b047bf0e335e07b8e5f2441b5",
+          "sha256": "a9e76d692e9609813e42dca4d4b1dbbeb3b426a125da49964ad702e0df81ea04",
+          "sha1": "cd98791e1fa97df31341a269d73d3a7d672c001f",
+          "md5": "daf1b787db151f8d90f16606d1cbe5bc"
         }
       ]
     }
