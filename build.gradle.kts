@@ -3,7 +3,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.tomdh.courseapi"
+group = "com.tomdh.sessionawarewebclient"
 version = "1.0.0"
 
 java {

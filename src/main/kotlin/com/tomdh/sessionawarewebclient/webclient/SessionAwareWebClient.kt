@@ -1,4 +1,4 @@
-package com.tomdh.courseapi.webclient
+package com.tomdh.sessionawarewebclient.webclient
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
