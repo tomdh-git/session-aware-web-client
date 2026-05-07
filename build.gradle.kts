@@ -1,15 +1,13 @@
 plugins {
     kotlin("jvm") version "2.0.21"
-    id("maven-publish")
+    `maven-publish`
 }
 
-group = "com.tomdh.sessionawarewebclient"
-version = "1.0.0"
+group = "com.github.tomdh-git"
+version = project.findProperty("version") ?: "main-SNAPSHOT"
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
-    }
+kotlin {
+    jvmToolchain(17)
 }
 
 repositories {
