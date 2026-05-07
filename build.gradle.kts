@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.tomdh-git"
-version = project.findProperty("version") ?: "main-SNAPSHOT"
+version = project.findProperty("version") ?: "master-SNAPSHOT"
 
 kotlin {
     jvmToolchain(17)
